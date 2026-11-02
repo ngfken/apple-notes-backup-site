@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Apple Notes Backup：在個人 Mac 匯出 Apple Notes，並備份到本人 Google Drive 的個人自用工具。">
+    <title>Apple Notes Backup — 個人筆記備份</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">個人自用工具</p>
+      <h1>Apple Notes Backup</h1>
+      <p class="lead">將自己 Mac 上的 Apple Notes 匯出，備份至自己的 Google Drive。</p>
+      <section aria-labelledby="function">
+        <h2 id="function">應用程式功能</h2>
+        <p>本工具在使用者的 macOS 裝置上執行，將可讀取的筆記匯出為本機備份，再透過 rclone 同步至使用者個人 Google Drive 的 <code>NotesBackup</code> 資料夾。</p>
+        <p>Google OAuth 僅用於取得執行備份所需的雲端硬碟存取授權。此網站提供工具說明與隱私權政策，不是登入或上傳筆記的平台。</p>
+      </section>
+      <section aria-labelledby="data">
+        <h2 id="data">資料如何處理</h2>
+        <ul>
+          <li>筆記由個人 Mac 讀取與匯出，備份保存在本機與本人授權的 Google Drive。</li>
+          <li>OAuth 憑證由本機 rclone 設定管理，本網站不接收憑證或筆記。</li>
+          <li>若設定 Telegram 通知，備份結果與錯誤診斷資訊會傳送至指定的 Telegram 對話。</li>
+        </ul>
+        <p><a href="privacy.html">閱讀完整隱私權政策</a></p>
+      </section>
+      <section aria-labelledby="contact">
+        <h2 id="contact">支援與聯絡</h2>
+        <p>請透過此應用程式 Google OAuth 同意畫面所列的使用者支援電子郵件，聯絡工具維護者。</p>
+      </section>
+    </main>
+    <footer>Apple Notes Backup · <a href="privacy.html">隱私權政策</a></footer>
+  </body>
+</html>
